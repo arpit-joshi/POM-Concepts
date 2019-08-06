@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Lojack test classes">
+	
+	<listeners>
+	<listener
+	class-name="com.qa.ExtentReportListner.ExtentReportNG" /><!-- it will listen all the classes mentioned below -->
+	</listeners>
+	
+	
+	
+	<test name="Lojack testing">
+		<classes>
+		
+			<class name="com.lojack.qa.testcases.LoginTestCase" />
+		<!--  
+		<class name="com.lojack.qa.testcases.LoginTestCase" />
+		<class name="com.lojack.qa.testcases.LoginTestCase" />
+		<class name="com.lojack.qa.testcases.LoginTestCase" />
+		-->
+			
+		</classes>
+	</test>
+</suite>

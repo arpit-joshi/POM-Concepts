@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Lojack test classes" duration-ms="117578" started-at="2019-08-01T20:08:11Z" finished-at="2019-08-01T20:10:08Z">
+    <groups>
+    </groups>
+    <test name="Lojack testing" duration-ms="117578" started-at="2019-08-01T20:08:11Z" finished-at="2019-08-01T20:10:08Z">
+      <class name="com.lojack.qa.testcases.LoginTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="setUp" is-config="true" duration-ms="15930" started-at="2019-08-01T20:08:11Z" finished-at="2019-08-01T20:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="loginPageTitleTest" duration-ms="31" started-at="2019-08-01T20:08:27Z" finished-at="2019-08-01T20:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="tearDown" is-config="true" duration-ms="834" started-at="2019-08-01T20:08:27Z" finished-at="2019-08-01T20:08:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="setUp" is-config="true" duration-ms="12283" started-at="2019-08-01T20:08:28Z" finished-at="2019-08-01T20:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPagelogoTest()[pri:2, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="loginPagelogoTest" duration-ms="45" started-at="2019-08-01T20:08:40Z" finished-at="2019-08-01T20:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPagelogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="tearDown" is-config="true" duration-ms="626" started-at="2019-08-01T20:08:40Z" finished-at="2019-08-01T20:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="setUp" is-config="true" duration-ms="12558" started-at="2019-08-01T20:08:41Z" finished-at="2019-08-01T20:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="blankLoginTest()[pri:3, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="blankLoginTest" duration-ms="140" started-at="2019-08-01T20:08:53Z" finished-at="2019-08-01T20:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="tearDown" is-config="true" duration-ms="624" started-at="2019-08-01T20:08:53Z" finished-at="2019-08-01T20:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="setUp" is-config="true" duration-ms="12494" started-at="2019-08-01T20:08:54Z" finished-at="2019-08-01T20:09:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="incorrectUserLoginTest()[pri:4, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="incorrectUserLoginTest" duration-ms="901" started-at="2019-08-01T20:09:06Z" finished-at="2019-08-01T20:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUserLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="tearDown" is-config="true" duration-ms="678" started-at="2019-08-01T20:09:07Z" finished-at="2019-08-01T20:09:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="setUp" is-config="true" duration-ms="12684" started-at="2019-08-01T20:09:08Z" finished-at="2019-08-01T20:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="incorrectPasswordLoginTest()[pri:5, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="incorrectPasswordLoginTest" duration-ms="633" started-at="2019-08-01T20:09:21Z" finished-at="2019-08-01T20:09:21Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...Please check user...> but was:<... Invalid User ...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...Please check user...> but was:<... Invalid User ...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at com.lojack.qa.testcases.LoginTestCase.incorrectPasswordLoginTest(LoginTestCase.java:62)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectPasswordLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="tearDown" is-config="true" duration-ms="602" started-at="2019-08-01T20:09:21Z" finished-at="2019-08-01T20:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="setUp" is-config="true" duration-ms="16007" started-at="2019-08-01T20:09:22Z" finished-at="2019-08-01T20:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="blankUserLoginTest()[pri:6, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="blankUserLoginTest" duration-ms="253" started-at="2019-08-01T20:09:38Z" finished-at="2019-08-01T20:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUserLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="tearDown" is-config="true" duration-ms="660" started-at="2019-08-01T20:09:38Z" finished-at="2019-08-01T20:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="setUp" is-config="true" duration-ms="15384" started-at="2019-08-01T20:09:39Z" finished-at="2019-08-01T20:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="blankPasswordLoginTest()[pri:7, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="blankPasswordLoginTest" duration-ms="248" started-at="2019-08-01T20:09:54Z" finished-at="2019-08-01T20:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankPasswordLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="tearDown" is-config="true" duration-ms="681" started-at="2019-08-01T20:09:55Z" finished-at="2019-08-01T20:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="setUp" is-config="true" duration-ms="11938" started-at="2019-08-01T20:09:55Z" finished-at="2019-08-01T20:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="correctcredentialsLoginTest()[pri:8, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="correctcredentialsLoginTest" duration-ms="640" started-at="2019-08-01T20:10:07Z" finished-at="2019-08-01T20:10:08Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...> but was:<...User/Dashboard.aspx>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...> but was:<...User/Dashboard.aspx>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at com.lojack.qa.testcases.LoginTestCase.correctcredentialsLoginTest(LoginTestCase.java:83)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctcredentialsLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lojack.qa.testcases.LoginTestCase@4667ae56]" name="tearDown" is-config="true" duration-ms="660" started-at="2019-08-01T20:10:08Z" finished-at="2019-08-01T20:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lojack.qa.testcases.LoginTestCase -->
+    </test> <!-- Lojack testing -->
+  </suite> <!-- Lojack test classes -->
+</testng-results>

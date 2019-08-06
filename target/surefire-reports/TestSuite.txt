@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 147.723 sec <<< FAILURE!
+incorrectPasswordLoginTest(com.lojack.qa.testcases.LoginTestCase)  Time elapsed: 0.608 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...Please check user...> but was:<... Invalid User ...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.lojack.qa.testcases.LoginTestCase.incorrectPasswordLoginTest(LoginTestCase.java:62)
+
+correctcredentialsLoginTest(com.lojack.qa.testcases.LoginTestCase)  Time elapsed: 0.585 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...> but was:<...User/Dashboard.aspx>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.lojack.qa.testcases.LoginTestCase.correctcredentialsLoginTest(LoginTestCase.java:83)
+

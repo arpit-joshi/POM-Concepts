@@ -1,0 +1,3 @@
+com\lojack\qa\testcases\ChangePasswordTestCase.class
+com\lojack\qa\testcases\LoginTestCase.class
+com\lojack\qa\testcases\DataDrivenLoginTestCase.class

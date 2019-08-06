@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Lojack_test_classes">
+              <span class="suite-name border-failed">Lojack test classes</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Lojack_test_classes">
+                    <span>C:\Users\arpit1.joshi\eclipse-workspace\POMConcepts\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Lojack_test_classes">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Lojack_test_classes">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Lojack_test_classes">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Lojack_test_classes">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Lojack_test_classes">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Lojack_test_classes">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Lojack_test_classes" class="hide-methods failed suite-Lojack_test_classes"> (hide)</a> <!-- hide-methods failed suite-Lojack_test_classes -->
+                      <a href="#" panel-name="suite-Lojack_test_classes" class="show-methods failed suite-Lojack_test_classes"> (show)</a> <!-- show-methods failed suite-Lojack_test_classes -->
+                    </span>
+                    <div class="method-list-content failed suite-Lojack_test_classes">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Lojack_test_classes" title="com.lojack.qa.testcases.LoginTestCase" hash-for-method="correctcredentialsLoginTest">correctcredentialsLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Lojack_test_classes" title="com.lojack.qa.testcases.LoginTestCase" hash-for-method="incorrectPasswordLoginTest">incorrectPasswordLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Lojack_test_classes -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Lojack_test_classes" class="hide-methods passed suite-Lojack_test_classes"> (hide)</a> <!-- hide-methods passed suite-Lojack_test_classes -->
+                      <a href="#" panel-name="suite-Lojack_test_classes" class="show-methods passed suite-Lojack_test_classes"> (show)</a> <!-- show-methods passed suite-Lojack_test_classes -->
+                    </span>
+                    <div class="method-list-content passed suite-Lojack_test_classes">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Lojack_test_classes" title="com.lojack.qa.testcases.LoginTestCase" hash-for-method="blankLoginTest">blankLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Lojack_test_classes" title="com.lojack.qa.testcases.LoginTestCase" hash-for-method="blankPasswordLoginTest">blankPasswordLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Lojack_test_classes" title="com.lojack.qa.testcases.LoginTestCase" hash-for-method="blankUserLoginTest">blankUserLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Lojack_test_classes" title="com.lojack.qa.testcases.LoginTestCase" hash-for-method="incorrectUserLoginTest">incorrectUserLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Lojack_test_classes" title="com.lojack.qa.testcases.LoginTestCase" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Lojack_test_classes" title="com.lojack.qa.testcases.LoginTestCase" hash-for-method="loginPagelogoTest">loginPagelogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Lojack_test_classes -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Lojack_test_classes" class="panel Lojack_test_classes">
+          <div class="suite-Lojack_test_classes-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.lojack.qa.testcases.LoginTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="correctcredentialsLoginTest">
+                  </a> <!-- correctcredentialsLoginTest -->
+                  <span class="method-name">correctcredentialsLoginTest</span>
+                  <div class="stack-trace">junit.framework.ComparisonFailure: expected:&lt;...&gt; but was:&lt;...User/Dashboard.aspx&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.lojack.qa.testcases.LoginTestCase.correctcredentialsLoginTest(LoginTestCase.java:83)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectPasswordLoginTest">
+                  </a> <!-- incorrectPasswordLoginTest -->
+                  <span class="method-name">incorrectPasswordLoginTest</span>
+                  <div class="stack-trace">junit.framework.ComparisonFailure: expected:&lt;...Please check user...&gt; but was:&lt;... Invalid User ...&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.lojack.qa.testcases.LoginTestCase.incorrectPasswordLoginTest(LoginTestCase.java:62)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Lojack_test_classes-class-failed -->
+          <div class="suite-Lojack_test_classes-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lojack.qa.testcases.LoginTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankLoginTest">
+                  </a> <!-- blankLoginTest -->
+                  <span class="method-name">blankLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankPasswordLoginTest">
+                  </a> <!-- blankPasswordLoginTest -->
+                  <span class="method-name">blankPasswordLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankUserLoginTest">
+                  </a> <!-- blankUserLoginTest -->
+                  <span class="method-name">blankUserLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectUserLoginTest">
+                  </a> <!-- incorrectUserLoginTest -->
+                  <span class="method-name">incorrectUserLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPagelogoTest">
+                  </a> <!-- loginPagelogoTest -->
+                  <span class="method-name">loginPagelogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Lojack_test_classes-class-passed -->
+        </div> <!-- panel Lojack_test_classes -->
+        <div panel-name="test-xml-Lojack_test_classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\arpit1.joshi\eclipse-workspace\POMConcepts\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Lojack test classes&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListner.ExtentReportNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Lojack testing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.lojack.qa.testcases.LoginTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Lojack testing --&gt;
+&lt;/suite&gt; &lt;!-- Lojack test classes --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Lojack_test_classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Lojack test classes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Lojack testing (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Lojack_test_classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Lojack test classes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Lojack_test_classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Lojack test classes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Lojack_test_classes');
+function tableData_Lojack_test_classes() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'incorrectUserLoginTest')
+data.setCell(0, 2, 'com.lojack.qa.testcases.LoginTestCase')
+data.setCell(0, 3, 901);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'correctcredentialsLoginTest')
+data.setCell(1, 2, 'com.lojack.qa.testcases.LoginTestCase')
+data.setCell(1, 3, 640);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'incorrectPasswordLoginTest')
+data.setCell(2, 2, 'com.lojack.qa.testcases.LoginTestCase')
+data.setCell(2, 3, 633);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'blankUserLoginTest')
+data.setCell(3, 2, 'com.lojack.qa.testcases.LoginTestCase')
+data.setCell(3, 3, 253);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'blankPasswordLoginTest')
+data.setCell(4, 2, 'com.lojack.qa.testcases.LoginTestCase')
+data.setCell(4, 3, 248);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'blankLoginTest')
+data.setCell(5, 2, 'com.lojack.qa.testcases.LoginTestCase')
+data.setCell(5, 3, 140);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginPagelogoTest')
+data.setCell(6, 2, 'com.lojack.qa.testcases.LoginTestCase')
+data.setCell(6, 3, 45);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginPageTitleTest')
+data.setCell(7, 2, 'com.lojack.qa.testcases.LoginTestCase')
+data.setCell(7, 3, 31);
+window.suiteTableData['Lojack_test_classes']= { tableData: data, tableDiv: 'times-div-Lojack_test_classes'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Lojack_test_classes">
+              </div> <!-- times-div-Lojack_test_classes -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Lojack_test_classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Lojack test classes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Lojack_test_classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Lojack_test_classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lojack.qa.testcases.LoginTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">15930 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPagelogoTest</span>
+                <span class="method-start">29081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankLoginTest</span>
+                <span class="method-start">42312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">incorrectUserLoginTest</span>
+                <span class="method-start">55571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56474 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">57152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">incorrectPasswordLoginTest</span>
+                <span class="method-start">69836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70473 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">71077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankUserLoginTest</span>
+                <span class="method-start">87084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">87999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankPasswordLoginTest</span>
+                <span class="method-start">103383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">103632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">104313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">correctcredentialsLoginTest</span>
+                <span class="method-start">116251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116892 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

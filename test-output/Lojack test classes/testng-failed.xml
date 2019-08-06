@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Lojack test classes]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListner.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" name="Lojack testing(failed)">
+    <classes>
+      <class name="com.lojack.qa.testcases.LoginTestCase">
+        <methods>
+          <include name="incorrectPasswordLoginTest"/>
+          <include name="tearDown"/>
+          <include name="correctcredentialsLoginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.lojack.qa.testcases.LoginTestCase -->
+    </classes>
+  </test> <!-- Lojack testing(failed) -->
+</suite> <!-- Failed suite [Lojack test classes] -->
